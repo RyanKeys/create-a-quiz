@@ -17,7 +17,7 @@ def question_parser(question):
     and store the user's score'''
 
     # takes question prompt from respective dict
-    prompt = list(question.values())
+    prompt = list(question.values()) 
     prompt = input(prompt.pop())
     print(prompt)
 
